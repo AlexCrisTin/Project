@@ -5,8 +5,6 @@
 
 package com.mycompany.app;
 
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello Remote World!");
-    }
+class Number {
+    public int i;
 }
