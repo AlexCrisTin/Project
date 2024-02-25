@@ -2,7 +2,7 @@ package com.mycompany.app.EX;
 
 public class bt8 {
     public static void main(String[] args) {
-        for(int i = 0; i <= 3; i++){
+        for(int i = 0; i <= 4; i++){
             switch(i){
                 case 1: System.out.println("A");
                 break;
@@ -20,4 +20,4 @@ public class bt8 {
     }
 }
 /*  Nếu mà bỏ break đi thì case 1 nó vẫn hoạt động bình thường cho đến khi đến case 2 bắt đầu lỗi lặp lại và đến case 3, case 4,...
-cũng lặp lại*/
+cũng lỗi lặp lại*/

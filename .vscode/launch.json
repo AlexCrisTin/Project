@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bt9",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX.bt9",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "bt8",
             "request": "launch",
             "mainClass": "com.mycompany.app.EX.bt8",
