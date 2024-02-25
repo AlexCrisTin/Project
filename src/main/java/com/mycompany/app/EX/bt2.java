@@ -10,7 +10,7 @@ public class bt2 {
             if(num1 < num2){
                 System.out.println("Num1 < Num2");
             }
-            if(num1 > num2){
+            else if(num1 > num2){
                 System.out.println("Num1 > Num2");
             }
             else
