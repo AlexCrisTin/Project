@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bt5",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX.bt5",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "bt4",
             "request": "launch",
             "mainClass": "com.mycompany.app.EX.bt4",
