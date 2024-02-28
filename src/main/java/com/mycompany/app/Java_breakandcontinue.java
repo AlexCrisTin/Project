@@ -1,4 +1,4 @@
-package com.mycompany;
+package com.mycompany.app;
 
 public class Java_breakandcontinue {
     public static void main(String[] args) {
