@@ -1,4 +1,4 @@
-package com.mycompany.app.EX;
+package com.mycompany.app.EX_Tuan_1;
 
 public class bt5 {
     public static void main(String[] args) {
