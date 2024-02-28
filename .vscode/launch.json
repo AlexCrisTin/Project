@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Java_whileloop",
+            "request": "launch",
+            "mainClass": "com.mycompany.Java_whileloop",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Java_ifelse",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Java_ifelse",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "bt7",
             "request": "launch",
             "mainClass": "com.mycompany.app.EX_Tuan_1.bt7",
