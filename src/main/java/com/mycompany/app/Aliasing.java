@@ -1,5 +1,5 @@
 package com.mycompany.app;
-class AL {
+class Aliasing {
     static void f(Number m) {
        m.i = 15;
    }
