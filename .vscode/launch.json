@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Java_breakandcontinue",
+            "request": "launch",
+            "mainClass": "com.mycompany.Java_breakandcontinue",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Java_switch",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Java_switch",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Java_eachloop",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Java_eachloop",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Java_whileloop",
             "request": "launch",
             "mainClass": "com.mycompany.Java_whileloop",
