@@ -1,6 +1,6 @@
 # Thành viên nhóm 15
-- Tran Ngoc An
-- Vu Duc Hieu
+- Tran Ngoc An (AlexCrisTin)
+- Vu Duc Hieu (MinatoPeko)
 
 
   
