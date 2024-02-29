@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.mycompany.app.EX_Tuan_1;
 
 public class Java_switch {
     public static void main(String[] args) {

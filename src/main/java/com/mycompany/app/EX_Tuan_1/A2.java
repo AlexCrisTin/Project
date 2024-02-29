@@ -1,4 +1,5 @@
-package com.mycompany.app;
+package com.mycompany.app.EX_Tuan_1;
+
 class A2 {
     public static void main(String[] args) {
         Number n1 = new Number();

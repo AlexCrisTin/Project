@@ -1,4 +1,5 @@
-package com.mycompany.app;
+package com.mycompany.app.EX_Tuan_1;
+
 class Aliasing {
     static void f(Number m) {
        m.i = 15;

@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.mycompany.app.EX_Tuan_1;
 
 class A1 {
     public static void main(String[] args) {
