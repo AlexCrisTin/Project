@@ -4,7 +4,7 @@ public class bt3 {
     public static void main(String[] agrs){
     
         Random random = new Random();
-        while(1==1){
+        while(true){
         for(int i = 0; i <= 25; i++){
         int num1 = random.nextInt(100)+1;
         int num2 = random.nextInt(100)+1;
