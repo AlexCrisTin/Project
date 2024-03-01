@@ -11,7 +11,7 @@ public class bt4 {
                     break;
                 }
             }
-            if(t){
+            if(t&&i>1){ //0 voi 1 khong phai so nguyen to
                 System.out.println(i);
             }
         }

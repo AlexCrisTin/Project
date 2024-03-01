@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bt6",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX_Tuan_1.bt6",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "bt4",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX_Tuan_1.bt4",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "bt3",
             "request": "launch",
             "mainClass": "com.mycompany.app.EX_Tuan_1.bt3",

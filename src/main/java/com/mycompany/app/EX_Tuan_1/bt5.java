@@ -2,8 +2,8 @@ package com.mycompany.app.EX_Tuan_1;
 
 public class bt5 {
     public static void main(String[] args) {
-       int x = 100101010;
-       int y = 011100101;
+      int x = 0x55555555;
+      int y = 0xaaaaaaaa;
          System.out.println("x: " + Integer.toBinaryString(x));
         System.out.println("y: " + Integer.toBinaryString(y));
 
