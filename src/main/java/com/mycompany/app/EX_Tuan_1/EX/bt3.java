@@ -1,4 +1,4 @@
-package com.mycompany.app.EX_Tuan_1.Code_3;
+package com.mycompany.app.EX_Tuan_1.EX;
 import java.util.Random;
 public class bt3 {
     public static void main(String[] agrs){
