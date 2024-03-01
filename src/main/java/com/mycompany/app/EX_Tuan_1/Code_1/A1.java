@@ -1,7 +1,7 @@
 package com.mycompany.app.EX_Tuan_1.Code_1;
 
-class A1 {
-    public static void main(String[] args) {
+public class A1 {
+    public void print() {
         Number n1 = new Number();
         Number n2 = new Number();
         n1.i = 2;
