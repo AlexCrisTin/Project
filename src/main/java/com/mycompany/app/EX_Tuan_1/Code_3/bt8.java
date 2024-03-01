@@ -1,4 +1,4 @@
-package com.mycompany.app.EX_Tuan_1;
+package com.mycompany.app.EX_Tuan_1.Code_3;
 
 public class bt8 {
     public static void main(String[] args) {

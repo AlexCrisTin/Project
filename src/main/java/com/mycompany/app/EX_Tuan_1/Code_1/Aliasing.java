@@ -1,4 +1,4 @@
-package com.mycompany.app.EX_Tuan_1;
+package com.mycompany.app.EX_Tuan_1.Code_1;
 
 class Aliasing {
     static void f(Number m) {
