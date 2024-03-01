@@ -1,6 +1,7 @@
 package com.mycompany.app;
+
 public class App {
-     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, world!");
+    public static void main(String[] args) throws Exception {
+        System.out.println("Hello, World!");
     }
 }
