@@ -1,21 +1,21 @@
 package com.mycompany.app.EX_Tuan_2;
 
-public class time {
+public class Time {
     private int second;
     private int minute;
     private int hour;
 
     
-    public time() {
+    public Time() {
         setTime(0, 0, 0);
     }
-    public time(int s) {
+    public Time(int s) {
         setTime(0, 0, s);
     }
-    public time(int s, int m) {
+    public Time(int s, int m) {
         setTime(0, m, s);
     }
-    public time(int s, int m, int h) {
+    public Time(int s, int m, int h) {
         setTime(h, m, s);
     }
 
@@ -49,7 +49,7 @@ public class time {
 
     
     public static void main(String[] args) {
-        time t = new time(01, 01, 12);
+        Time t = new Time(01, 01, 12);
         System.out.println(t);
     }
 }
