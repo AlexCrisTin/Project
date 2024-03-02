@@ -1,4 +1,4 @@
-package com.mycompany.app.EX_Tuan_2;
+package com.mycompany.app.EX_Tuan_2.Code_1;
 
 public class Time {
     private int second;

@@ -1,4 +1,4 @@
-package com.mycompany.app.EX_Tuan_2;
+package com.mycompany.app.EX_Tuan_2.Code_3;
 
 public class Java_method {
     static void myMethod() {
