@@ -1,32 +1,32 @@
 package com.mycompany.app.EX_Tuan_2.Code_1;
 
 public class Time {
-    private int second;
-    private int minute;
-    private int hour;
+
+    int second;
+    int minute;
+    int hour;
 
     
-    public Time() {
+    Time() {
         setTime(0, 0, 0);
     }
-    public Time(int s) {
+    Time(int s) {
         setTime(0, 0, s);
     }
-    public Time(int s, int m) {
+    Time(int s, int m) {
         setTime(0, m, s);
     }
-    public Time(int s, int m, int h) {
+    Time(int s, int m, int h) {
         setTime(h, m, s);
     }
 
-
-    public void setTime(int h, int m, int s) {
+    void setTime(int h, int m, int s) {
         setHour(h);
         setMinute(m);
         setSecond(s);
     }
 
-    public void setHour(int h) {
+    void setHour(int h) {
         if (h >= 0 && h < 24) {
             hour = h;
         } 
