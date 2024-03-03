@@ -10,7 +10,7 @@ public class Book {
             title = t;
             author = a;
             page = p;
-        }public static void main(String[] args) {
+        }public void main() {
         Book usefullBook = new Book("The Begin", "Mag", 69);
         System.out.println("Title: " + usefullBook.title + "\n" + "Author: " + usefullBook.author+ "\n" + "Page: " + usefullBook.page);
         

@@ -1,9 +1,8 @@
 package com.mycompany.app;
-import com.mycompany.app.EX_Tuan_1.Code_1.*;
+import com.mycompany.app.EX_Tuan_2.Code_1.*;
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        A1 temp = new A1();
-        temp.print();
+    public static void main(String[] args) {
+        Code_1 temp=new Code_1();
+        temp.main();
     }
 }
