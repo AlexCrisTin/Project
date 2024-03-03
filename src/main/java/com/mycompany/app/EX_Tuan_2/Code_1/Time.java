@@ -7,7 +7,7 @@ public class Time {
     int hour;
 
     
-    Time() {
+    public Time() {
         setTime(0, 0, 0);
     }
     Time(int s) {
@@ -48,7 +48,7 @@ public class Time {
     }
 
     
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Time t = new Time(01, 01, 12);
         System.out.println(t);
     }
