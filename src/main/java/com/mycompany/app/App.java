@@ -5,8 +5,8 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
         System.out.println("******Book******");
-        Book temp = new Book(null, null, 0);
-        temp.main(args);
+        Book b = new Book(null, null, 0);
+        b.main(args);
         
         System.out.println("******Time******");
         Time t  = new Time();
