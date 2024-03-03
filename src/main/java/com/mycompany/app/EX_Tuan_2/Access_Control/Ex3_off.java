@@ -1,7 +1,7 @@
 package com.mycompany.app.EX_Tuan_2.Access_Control;
 
 public class Ex3_off {
-    public static void debug(String s){
+    public void debug(String s){
 		
 	}
 }
