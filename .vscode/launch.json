@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aliasing",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX_Tuan_1.Code_1.Aliasing",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "bt9",
             "request": "launch",
             "mainClass": "com.mycompany.app.EX_Tuan_1.bt9",
