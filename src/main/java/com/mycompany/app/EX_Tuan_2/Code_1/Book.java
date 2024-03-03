@@ -11,7 +11,7 @@ public class Book {
             author = a;
             page = p;
         }
-        public static void main(String[] args) {
+        public void main(String[] args) {
         Book usefullBook = new Book("The Begin", "Mag", 69);
         System.out.println("Title: " + usefullBook.title + "\n" + "Author: " + usefullBook.author+ "\n" + "Page: " + usefullBook.page);
         
