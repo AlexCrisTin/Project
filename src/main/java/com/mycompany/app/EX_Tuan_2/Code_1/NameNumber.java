@@ -4,7 +4,7 @@ public class NameNumber {
     private String lastName;
     private String telNumber;
 
-    NameNumber() {
+    public NameNumber() {
     }
 
     // set name and number to NameNumber
@@ -22,7 +22,7 @@ public class NameNumber {
     public String getTelNumber() {
         return telNumber;
     }
-public static void main(String[] args) {
+public void main(String[] args) {
     NNCollection collection = new NNCollection();
     NameNumber n = new NameNumber();
 
