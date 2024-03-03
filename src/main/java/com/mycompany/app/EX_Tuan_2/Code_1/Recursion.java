@@ -2,7 +2,7 @@ package com.mycompany.app.EX_Tuan_2.Code_1;
 
 public class Recursion {
     
-    Recursion(){};
+    public Recursion(){};
     Recursion(int number){
 }
 
@@ -14,7 +14,7 @@ public static int Recursion(int num) {
     }
 }
 
-public static void main(String[] args) {
+public void main(String[] args) {
     int number = 10;
     int result = Recursion(number);
     System.out.println( number + "!" + " la " + result);

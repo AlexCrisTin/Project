@@ -13,9 +13,13 @@ public class App {
         Time t  = new Time();
         t.main(args);
 
-        
+        System.out.println("******Recursion******");
+        Recursion r  = new Recursion();
+        r.main(args);
 
-
+        System.out.println("******NameNumber******");
+        NameNumber n  = new NameNumber();
+        n.main(args);
 
     }
 }
