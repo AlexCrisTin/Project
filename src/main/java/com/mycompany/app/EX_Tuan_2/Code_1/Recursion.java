@@ -2,10 +2,8 @@ package com.mycompany.app.EX_Tuan_2.Code_1;
 
 public class Recursion {
     
-
-
-Recursion(){};
-Recursion(int number){
+    Recursion(){};
+    Recursion(int number){
 }
 
 public static int Recursion(int num) {
