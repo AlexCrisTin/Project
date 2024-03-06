@@ -6,4 +6,4 @@ public class EX1 {
          EX1 nul = new EX1();
          System.out.println(nul.PrintString);
     }
-}
+}s
