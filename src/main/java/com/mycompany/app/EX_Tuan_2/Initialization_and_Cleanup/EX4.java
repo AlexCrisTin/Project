@@ -1,7 +1,7 @@
 package com.mycompany.app.EX_Tuan_2.Initialization_and_Cleanup;
 
 public class EX4 {
-public EX4() {
+    public EX4() {
             System.out.println("This is a message");
         }
 public EX4(String message) {
