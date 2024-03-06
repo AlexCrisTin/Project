@@ -1,4 +1,4 @@
-package com.mycompany.app.EX_Tuan_3;
+package com.mycompany.app.EX_Tuan_3.Code_3;
 
 
     abstract class Animal {
