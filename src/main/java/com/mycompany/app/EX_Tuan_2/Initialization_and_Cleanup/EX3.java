@@ -6,7 +6,7 @@ public class EX3 {
     }
 public static void main(String[] args) {
     EX3 print = new EX3();
-    System.out.println(print);
+    
 }
     
 }
