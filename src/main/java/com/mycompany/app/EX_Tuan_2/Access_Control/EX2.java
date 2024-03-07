@@ -1,8 +1,7 @@
 package com.mycompany.app.EX_Tuan_2.Access_Control;
 
 import java.util.*;
-import Vector.java;
-public class Vector {
+class Vector {
 	public Vector() {
 	System.out.println("net.mindview.simple.Vector");
 	}
