@@ -5,14 +5,14 @@ class Simple{
 		System.out.println(" ");
 	}
 }
-public class Ex1 {
+public class EX1 {
 	 Simple smpl;
 	void useSimple(){
 		smpl = new Simple();
 		smpl.alloy();
 	}
 	public static void main(String[] args){
-		Ex1 ex1 = new Ex1();
+		EX1 ex1 = new EX1();
 		ex1.useSimple();
 	}
 }
