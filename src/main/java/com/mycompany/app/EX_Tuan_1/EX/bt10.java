@@ -9,15 +9,11 @@ public class bt10 {
         }
     }
 
-    static boolean VampireNumber(int i) {
-        String numStr = String.valueOf(i);
+    static boolean VampireNumber(int i) 
+    {
         for (int j = 10; j < 100; j++) {
-            if (i % j == 0) {
-                String Str = i + "" + (i / j);
-                if (Str.length() == numStr.length()) {
-                    return true;
-                }
-            }
+            if(((i%j==0)&&(i/j>=10))&&(i/j<100))
+            return true;
         }
         return false;
     }

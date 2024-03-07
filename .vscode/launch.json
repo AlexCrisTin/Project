@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bt10",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX_Tuan_1.EX.bt10",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Ex7_out",
             "request": "launch",
             "mainClass": "com.mycompany.app.EX_Tuan_2.Access_Control.Ex7_out",
