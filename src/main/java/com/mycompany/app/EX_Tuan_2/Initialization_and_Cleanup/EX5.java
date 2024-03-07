@@ -13,6 +13,13 @@ public void bark(boolean loud) {
             System.out.println("gau");
         }
     }
+    public void see(boolean people){
+        if(people){
+            System.out.println("GAUGAUGAUGAUGAU");
+        } else{
+            System.out.println("Slient");
+        }
+    }
 public void bark(char kind) {
         switch (kind) {
             case 'H':
@@ -35,5 +42,6 @@ public void bark(char kind) {
         myDog.bark(3);
         myDog.bark(true);
         myDog.bark('U');
+        myDog.see(true);
     }
 }
