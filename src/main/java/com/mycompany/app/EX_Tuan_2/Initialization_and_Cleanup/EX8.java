@@ -11,8 +11,7 @@ public class EX8 {
     }
     public static void main(String[] args) {
         EX8 me = new EX8();
-        System.out.println();
+        me.method1();
         System.out.println(me.method2());
     }
 }
-//can't create without using this
