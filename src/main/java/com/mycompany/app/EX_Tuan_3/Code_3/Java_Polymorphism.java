@@ -18,7 +18,7 @@ class Anima {
     }
   }
   
-  class Main {
+  class M {
     public static void main(String[] args) {
       Anima myAnimal = new Anima();  // Create a Animal object
       Anima myPig = new Pg();  // Create a Pig object
