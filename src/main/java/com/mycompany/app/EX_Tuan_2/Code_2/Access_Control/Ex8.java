@@ -11,7 +11,7 @@ class Connection{
 		System.out.println("Connecting to socket " + a);
 	}
 }
-
+@SuppressWarnings("unused")
 class ConnectionManager{
 	private static int conncount=0;
 	private static Connection[] connmgr = new Connection[5];
