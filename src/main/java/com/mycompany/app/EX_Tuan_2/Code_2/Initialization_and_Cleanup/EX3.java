@@ -6,7 +6,7 @@ public class EX3 {
     }
     @SuppressWarnings("unused")
 public static void main(String[] args) {
-    @SuppressWarnings("unused")
+   
     EX3 print = new EX3();
     
 }
