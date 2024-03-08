@@ -24,6 +24,6 @@ public class EX10 {
         Num novel = new Num(true);
         novel.checkIn();
 
-        new Num(true); // This object won't be used and will be eligible for garbage collection
-    }
+        new Num(true);
+}
 }
