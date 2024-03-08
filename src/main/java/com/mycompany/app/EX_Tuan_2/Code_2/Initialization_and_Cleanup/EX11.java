@@ -11,12 +11,8 @@ protected void finalize() {
         System.out.println("Finalizing number: " + numberCheck);
       
     }
-<<<<<<< HEAD
     @SuppressWarnings("unused")
-=======
 
-@SuppressWarnings("unused")
->>>>>>> ac97752a3cf10f9d01b72e9df5c738af2d71548f
 public static void main(String[] args) {
         EX11 resource = new EX11("Number.txt");
         System.gc();
