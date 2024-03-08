@@ -1,4 +1,4 @@
-package com.mycompany.app.EX_Tuan_2.Reusing_Classess;
+package com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classess;
 
 class Cleanser {
 	private String s = "Cleanser";
