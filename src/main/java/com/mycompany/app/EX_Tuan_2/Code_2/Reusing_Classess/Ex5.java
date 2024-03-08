@@ -14,5 +14,6 @@ class C extends A{
 
 public class Ex5 {
 	public static void main(String[] args) {
-		C c = new C();
-
+        C c = new C();
+    }
+}
