@@ -7,6 +7,7 @@ public class EX4 {
 public EX4(String message) {
             System.out.println(" " + message);
         }
+@SuppressWarnings("unused")
 public static void main(String[] args) {
             EX4 message = new EX4();
             EX4 overload = new EX4(" ");

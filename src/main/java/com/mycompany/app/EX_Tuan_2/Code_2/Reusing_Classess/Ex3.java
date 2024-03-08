@@ -12,6 +12,7 @@ class Cartoon extends Drawing {
     
 }
 public class Ex3 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
 		Cartoon x = new Cartoon();
     }

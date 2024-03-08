@@ -12,6 +12,7 @@ protected void finalize() {
       
     }
 
+@SuppressWarnings("unused")
 public static void main(String[] args) {
         EX11 resource = new EX11("Number.txt");
         System.gc();
