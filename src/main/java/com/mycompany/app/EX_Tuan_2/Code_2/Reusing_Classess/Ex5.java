@@ -13,6 +13,7 @@ class C extends A{
 }
 @SuppressWarnings("unused")
 public class Ex5 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
         C c = new C();
     }

@@ -6,17 +6,17 @@ public class Recursion {
     Recursion(int number){
 }
 
-public static int Recursion(int num) {
+public static int Recursio(int num) {
     if (num <= 0) {
         return 1;
     } else {
-        return num * Recursion(num - 1);
+        return num * Recursio(num - 1);
     }
 }
 
 public void main(String[] args) {
     int number = 10;
-    int result = Recursion(number);
+    int result = Recursio(number);
     System.out.println( number + "!" + " la " + result);
 }
 

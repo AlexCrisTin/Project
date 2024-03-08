@@ -22,6 +22,7 @@ class ConnectionManager{
 	private ConnectionManager(){ 
 		connInit();
 	}
+	@SuppressWarnings("unused")
 	private static ConnectionManager cm = new ConnectionManager();
 	
 	public static Connection access(){
