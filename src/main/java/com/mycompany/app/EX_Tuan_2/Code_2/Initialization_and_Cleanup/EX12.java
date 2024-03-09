@@ -17,9 +17,10 @@ public class EX12 {
     @Override
     protected void finalize() {
         if (isFilled) {
-            System.out.println("Error: Tank is not empty during cleanup!");
+            System.out.println("Error: Tank is full!");
         }
     }
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         EX12 tanksliver = new EX12();
     tanksliver.fill();
