@@ -4,7 +4,7 @@ class Amphibian{
 	static void jump(Amphibian a){
 		System.out.println("Jump!");
 	}
-	void sleep(){
+	void slip(){
 		System.out.println("Squeek!");
 	}
 }
@@ -17,7 +17,7 @@ public class Ex16 {
 	public static void main(String[] args){
 		Frog f = new Frog();
 		Amphibian.jump(f);  //Upcasting
-		f.sleep
+		f.slip
 ();
 	}
 }
