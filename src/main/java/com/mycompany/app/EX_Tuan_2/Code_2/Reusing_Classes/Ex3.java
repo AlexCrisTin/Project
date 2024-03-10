@@ -1,4 +1,4 @@
-package com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classess;
+package com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classes;
 
 class Art {
 	Art() { System.out.println("Art constructor"); }

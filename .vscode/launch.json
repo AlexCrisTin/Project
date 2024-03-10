@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex9",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classess.Ex9",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Ex8",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classess.Ex8",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Ex7",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classess.Ex7",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Ex4",
             "request": "launch",
             "mainClass": "com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classess.Ex4",
