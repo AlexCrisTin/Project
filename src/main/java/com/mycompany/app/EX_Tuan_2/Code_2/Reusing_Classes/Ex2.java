@@ -15,14 +15,14 @@ class Clean {
 	
 }
 
-class Detergent extends Clean {
+class Detergen extends Clean {
 	public void scrub() {
 		append(" Detergent.scrub()");
 		super.scrub(); 
 	}
 	public void foam() { append(" foam()"); }
 	public static void main(String[] args) {
-	Detergent x = new Detergent();
+	Detergen x = new Detergen();
 	x.dilute();
 	x.apply();
 	x.scrub();
@@ -34,7 +34,7 @@ class Detergent extends Clean {
 
 } 
 
-public class Ex2 extends Detergent {
+public class Ex2 extends Detergen {
 	public void scrub(){
 		append(" Exercise2.scrub()");
 		super.scrub(); // Call Detergent-class version
@@ -49,7 +49,7 @@ public class Ex2 extends Detergent {
 		x.sterilize();
 		System.out.println(x);
 		System.out.println("Testing base class:");
-		Detergent.main(args);
+		Detergen.main(args);
 	}
 }
 
