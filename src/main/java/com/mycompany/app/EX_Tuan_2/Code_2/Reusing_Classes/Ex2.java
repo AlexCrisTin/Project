@@ -1,6 +1,6 @@
 package com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classes;
 
-class Cleanser {
+class Clean {
 	private String s = "Cleanser";
 	public void append(String a) { s += a; }
 	public void dilute() { append(" dilute()"); }
@@ -8,33 +8,33 @@ class Cleanser {
 	public void scrub() { append(" scrub()"); }
 	public String toString() { return s; }
 	public static void main(String[] args) {
-		Cleanser x = new Cleanser();
+		Clean x = new Clean();
 		x.dilute(); x.apply(); x.scrub();
 		System.out.println(x);
 	}
 	
 }
 
-class Detergent extends Cleanser {
+class Detergen extends Clean {
 	public void scrub() {
 		append(" Detergent.scrub()");
 		super.scrub(); 
 	}
 	public void foam() { append(" foam()"); }
 	public static void main(String[] args) {
-	Detergent x = new Detergent();
+	Detergen x = new Detergen();
 	x.dilute();
 	x.apply();
 	x.scrub();
 	x.foam();
 	System.out.println(x);
 	System.out.println("Testing base class:");
-	Cleanser.main(args);
+	Clean.main(args);
 	} 
 
 } 
 
-public class Ex2 extends Detergent {
+public class Ex2 extends Detergen {
 	public void scrub(){
 		append(" Exercise2.scrub()");
 		super.scrub(); // Call Detergent-class version
@@ -49,7 +49,7 @@ public class Ex2 extends Detergent {
 		x.sterilize();
 		System.out.println(x);
 		System.out.println("Testing base class:");
-		Detergent.main(args);
+		Detergen.main(args);
 	}
 }
 
