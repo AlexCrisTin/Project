@@ -1,7 +1,7 @@
 package com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classes;
 
-class Amphibian{
-	static void jump(Amphibian a){
+class Amphibia{
+	static void jump(Amphibia a){
 		System.out.println("Jump!");
 	}
 	void slip(){
@@ -9,14 +9,14 @@ class Amphibian{
 	}
 }
 
-class Frog extends Amphibian{
+class Frog extends Amphibia{
 	
 }
 
 public class Ex16 {
 	public static void main(String[] args){
 		Frog f = new Frog();
-		Amphibian.jump(f);  //Upcasting
+		Amphibia.jump(f);  //Upcasting
 		f.slip
 ();
 	}
