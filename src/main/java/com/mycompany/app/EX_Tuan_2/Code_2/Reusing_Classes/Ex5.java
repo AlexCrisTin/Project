@@ -1,14 +1,14 @@
 package com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classes;
 
-class A{
-	A(){ System.out.println("A"); } 
+class Abc{
+	Abc(){ System.out.println("Abc"); } 
 }
 
 class B{
 	B(){ System.out.println("B"); } 
 }
 
-class C extends A{                  
+class C extends Abc{                  
 	B b = new B();                  
 }
 @SuppressWarnings("unused")
