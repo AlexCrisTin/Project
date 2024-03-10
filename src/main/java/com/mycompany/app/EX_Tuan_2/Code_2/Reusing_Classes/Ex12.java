@@ -1,23 +1,23 @@
 package com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classes;
 
-class A1{
-	A1(){
+class B1{
+	B1(){
 		System.out.println("A1"); 
 	}
 	void dispose(){
 		System.out.println("A1.dispose");
 	}
 }
- class A2{
-	A2(){
+ class B2{
+	B2(){
 		System.out.println("A2"); 
 	}
 	void dispose(){
 		System.out.println("A2.dispose");
 	}
 }
-class A3{
-	A3(){
+class B3{
+	B3(){
 		System.out.println("A3"); 
 	}
 	void dispose(){
@@ -25,14 +25,14 @@ class A3{
 	}
 }
 class Rootx{
-	private A1 A;
-	private A2 B;
-	private A3 C;
+	private B1 A;
+	private B2 B;
+	private B3 C;
 	Rootx(){
 		System.out.println("Rootx");
-		A = new A1();
-		B = new A2();
-		C = new A3();
+		A = new B1();
+		B = new B2();
+		C = new B3();
 	}
 	void dispose(){
 		System.out.println("Rootx.dispose");
@@ -41,13 +41,13 @@ class Rootx{
 		A.dispose();
 	}
 }class Stemx extends Rootx{
-	private A1 AA;
-	private A2 BB;
-	private A3 CC;
+	private B1 AA;
+	private B2 BB;
+	private B3 CC;
 	public Stemx(){
-		AA = new A1();
-		BB = new A2();
-		CC = new A3();
+		AA = new B1();
+		BB = new B2();
+		CC = new B3();
 	}
 	public void dispose(){
 		System.out.println("Stemx.dispose");
