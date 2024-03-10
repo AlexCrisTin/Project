@@ -5,13 +5,13 @@ class A{
 		System.out.println("Class A");
 	}
 }
-class A1{
+class C{
 	final A c;
-	A1(){
+	C(){
 		c = new A();
 		System.out.println("   ");
 	}
-	A1(String s){
+	C(String s){
 		c = new A();
 		System.out.println("   " + s);
 	}
@@ -19,8 +19,8 @@ class A1{
 public class Ex19 {
 	public static void main(String[] args){
 		@SuppressWarnings("unused")
-        A1 b = new A1();
+        C b = new C();
 		@SuppressWarnings("unused")
-        A1 bb = new A1("hello");
+        C bb = new C("hello");
     }
 }
