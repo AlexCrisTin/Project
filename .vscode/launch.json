@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PlayNote",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX_Tuan_2.Code_2.Polymorphism.PlayNote",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "MusicNote",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX_Tuan_2.Code_2.Polymorphism.MusicNote",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Brass",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.EX_Tuan_2.Code_2.Polymorphism.Brass",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Ex23",
             "request": "launch",
             "mainClass": "com.mycompany.app.EX_Tuan_2.Code_2.Reusing_Classes.Ex23",
